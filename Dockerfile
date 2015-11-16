@@ -4,6 +4,7 @@ MAINTAINER Brandon Grantham <brandon.grantham@gmail.com>
 #updated from mesoscloud repo 
 #changes: RUN Command has been optimized and base pushed online
 
+
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv E56151BF && \
 echo deb http://repos.mesosphere.io/ubuntu trusty main > /etc/apt/sources.list.d/mesosphere.list && \
 apt-get update && \
